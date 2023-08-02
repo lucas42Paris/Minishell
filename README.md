@@ -1,6 +1,6 @@
 # Minishell
 
-🇫🇷
+🇫🇷[FR]
 
 L'objectif du projet Minishell est simple : créer un shell minimaliste personnalisé qui imite les fonctionnalités de base du shell Bash.
 
