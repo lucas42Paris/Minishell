@@ -21,8 +21,9 @@ __Fonctionnalités à implémenter__ :
 * Implémenter les commandes intégrées suivantes : `echo`, `cd`, `pwd`, `export`, `unset`, `env` et `exit`.
 
 __Comment tester le projet__ ?
-* `make` a la racine, puis `./minishell`
-* Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
+
+* Exécutez la commande `make` à la racine du répertoire.
+* Exécutez`./minishell`. Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
 
 🇺🇸
 
@@ -46,7 +47,7 @@ __Features to implement__:
 
 __How to test the project__?
 
-* `make` at root, then `./minishell`
-* You are now in our custom shell, have fun with commands and compare behavior with Bash!
+* Execute the `make` command at the root of the directory.
+* Run `./minishell`. You are now in our custom shell, have fun with commands and compare the behavior with Bash!
 
 ![Rating](rating.png)
