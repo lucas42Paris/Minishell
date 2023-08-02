@@ -23,7 +23,7 @@ __Fonctionnalités à implémenter__ :
 __Comment tester le projet__ ?
 
 * Exécutez la commande `make` à la racine du répertoire.
-* Exécutez`./minishell`. Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
+* Exécutez `./minishell`. Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
 
 🇺🇸
 
