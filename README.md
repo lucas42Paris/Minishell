@@ -1,30 +1,5 @@
 # Minishell
 
-🇫🇷
-
-L'objectif du projet Minishell est simple : créer un shell minimaliste personnalisé qui imite les fonctionnalités de base du shell Bash.
-
-Le code doit respecter la Norme imposée par 42 (voir pdf).
-
-__Fonctionnalités à implémenter__ :
-
-* Afficher un prompt pour l'entrée de commande.
-* Gérer l'historique des commandes (flèche du haut et flèche du bas).
-* Exécutables système disponibles depuis l'environnement (`ls`, `cat`, `grep`, etc.)
-* Rechercher et exécuter le bon exécutable (en se basant sur la variable d'environnement PATH, ou sur un chemin relatif ou absolu).
-* Gérer les guillemets simples et doubles pour interpréter les méta-caractères.
-* Implémenter les redirections d'entrée et de sortie (`<`, `>`, `<<`, `>>`).
-* Implémenter les pipes (`|`).
-* Gérer les variables d'environnement et leur substitution dans les commandes.
-* Gérer le code de sortie de la dernière commande exécutée (`$?`).
-* Gérer les signaux `ctrl-C`, `ctrl-D` et `ctrl-\`.
-* Implémenter les commandes intégrées suivantes : `echo`, `cd`, `pwd`, `export`, `unset`, `env` et `exit`.
-
-__Comment tester le projet__ ?
-
-* Exécutez la commande `make` à la racine du répertoire.
-* Exécutez `./minishell`. Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
-
 🇺🇸
 
 The goal of the Minishell project is simple: to create a custom minimalist shell that mimics the basic functionality of the Bash shell.
@@ -49,5 +24,30 @@ __How to test the project__?
 
 * Execute the `make` command at the root of the directory.
 * Run `./minishell`. You are now in our custom shell, have fun with commands and compare the behavior with Bash!
+
+🇫🇷
+
+L'objectif du projet Minishell est simple : créer un shell minimaliste personnalisé qui imite les fonctionnalités de base du shell Bash.
+
+Le code doit respecter la Norme imposée par 42 (voir pdf).
+
+__Fonctionnalités à implémenter__ :
+
+* Afficher un prompt pour l'entrée de commande.
+* Gérer l'historique des commandes (flèche du haut et flèche du bas).
+* Exécutables système disponibles depuis l'environnement (`ls`, `cat`, `grep`, etc.)
+* Rechercher et exécuter le bon exécutable (en se basant sur la variable d'environnement PATH, ou sur un chemin relatif ou absolu).
+* Gérer les guillemets simples et doubles pour interpréter les méta-caractères.
+* Implémenter les redirections d'entrée et de sortie (`<`, `>`, `<<`, `>>`).
+* Implémenter les pipes (`|`).
+* Gérer les variables d'environnement et leur substitution dans les commandes.
+* Gérer le code de sortie de la dernière commande exécutée (`$?`).
+* Gérer les signaux `ctrl-C`, `ctrl-D` et `ctrl-\`.
+* Implémenter les commandes intégrées suivantes : `echo`, `cd`, `pwd`, `export`, `unset`, `env` et `exit`.
+
+__Comment tester le projet__ ?
+
+* Exécutez la commande `make` à la racine du répertoire.
+* Exécutez `./minishell`. Vous êtes maintenant dans notre shell personnalisé, amusez-vous avec des commandes et comparez le comportement avec Bash !
 
 ![Rating](rating.png)
